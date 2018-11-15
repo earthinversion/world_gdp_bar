@@ -43,7 +43,7 @@ def make_video(dir_path,ext,output,framerate):
 
     # Release everything if job is finished
     out.release() #closes video file and capturing device
-    cv2.destroyAllWindows()
+    #cv2.destroyAllWindows()
 
     print("The output video is {}".format(output))
 
